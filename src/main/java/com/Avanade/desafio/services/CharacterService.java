@@ -8,7 +8,6 @@ import com.Avanade.desafio.repositories.CharacterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.lang.model.type.ErrorType;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

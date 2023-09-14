@@ -31,42 +31,42 @@ public class Character {
 
     private Long remainingLife;
 
-public Character(CharacterCreateRequest c) {
-    this.name = c.getName();
-    this.life = c.getLife();
-    this.attack = c.getAttack();
-    this.defense = c.getDefense();
-    this.agility = c.getAgility();
-    this.characterType = c.getCharacterType();
-    this.diceNr = c.getDiceNr();
-    this.diceFaces = c.getDiceFaces();
-    this.remainingLife = c.getLife();
-}
-
-public Character() {
-    this.setRemainingLife(this.getLife());
-}
-
-public void ReceivesDamage(long i) {
-    long remainingLife = this.getRemainingLife() -i;
-    if (remainingLife <0) {
-        remainingLife = 0;
+    public Character(CharacterCreateRequest c) {
+        this.name = c.getName();
+        this.life = c.getLife();
+        this.attack = c.getAttack();
+        this.defense = c.getDefense();
+        this.agility = c.getAgility();
+        this.characterType = c.getCharacterType();
+        this.diceNr = c.getDiceNr();
+        this.diceFaces = c.getDiceFaces();
+        this.remainingLife = c.getLife();
     }
-    this.setRemainingLife(remainingLife);
-    log.info("{} received {} damage! Remaining life is: {} ", this.name, i, remainingLife);
-}
 
-public void Heal() {
-    this.setRemainingLife(this.getLife());
-}
-
-public boolean isPlayerAlive() {
-    if (this.getRemainingLife() > 0) {
-        return true;
-    } else {
-        return false;
+    public Character() {
+        this.setRemainingLife(this.getLife());
     }
-}
+
+    public void ReceivesDamage(long i) {
+        long remainingLife = this.getRemainingLife() -i;
+        if (remainingLife <0) {
+            remainingLife = 0;
+        }
+        this.setRemainingLife(remainingLife);
+        log.info("{} received {} damage! Remaining life is: {} ", this.name, i, remainingLife);
+    }
+
+    public void Heal() {
+        this.setRemainingLife(this.getLife());
+    }
+
+    public boolean isPlayerAlive() {
+        if (this.getRemainingLife() > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
 
 

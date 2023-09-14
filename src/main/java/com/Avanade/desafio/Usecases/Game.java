@@ -5,9 +5,7 @@ import com.Avanade.desafio.enums.CharacterName;
 import com.Avanade.desafio.services.CharacterService;
 import com.Avanade.desafio.services.DiceService;
 import lombok.extern.slf4j.Slf4j;
-import org.hibernate.annotations.NotFound;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
@@ -93,17 +91,6 @@ public class Game {
         log.info("\n ");
 
     }
-
-    public void decidesPlayerOrder(Character a, Character b) {
-
-    }
-
-
-
-    public void startGame(Character a, Character b) {
-
-    }
-
 
 
     public Boolean playersTurn(Character attacker, Character defender) {
