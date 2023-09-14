@@ -1,0 +1,77 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2023-09-13T23:48:46.392-03:00  INFO 21684 --- [  restartedMain] com.Avanade.desafio.DesafioApplication   : Starting DesafioApplication using Java 17.0.8 with PID 21684 (C:\Users\tanic\Downloads\desafio\desafio\target\classes started by tanic in C:\Users\tanic\Downloads\desafio\desafio)
+2023-09-13T23:48:46.395-03:00  INFO 21684 --- [  restartedMain] com.Avanade.desafio.DesafioApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T23:48:46.445-03:00  INFO 21684 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-13T23:48:46.445-03:00  INFO 21684 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-13T23:48:47.008-03:00  INFO 21684 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T23:48:47.056-03:00  INFO 21684 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-09-13T23:48:47.538-03:00  INFO 21684 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9080 (http)
+2023-09-13T23:48:47.547-03:00  INFO 21684 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T23:48:47.548-03:00  INFO 21684 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T23:48:47.603-03:00  INFO 21684 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T23:48:47.603-03:00  INFO 21684 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1157 ms
+2023-09-13T23:48:47.728-03:00  INFO 21684 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-13T23:48:47.802-03:00  INFO 21684 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-13T23:48:47.804-03:00  INFO 21684 --- [  restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-13T23:48:47.919-03:00  INFO 21684 --- [  restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-13T23:48:48.029-03:00  INFO 21684 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-13T23:48:48.044-03:00  INFO 21684 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-13T23:48:48.140-03:00  INFO 21684 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68fbcaa0
+2023-09-13T23:48:48.141-03:00  INFO 21684 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-13T23:48:48.343-03:00  INFO 21684 --- [  restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-13T23:48:48.886-03:00  INFO 21684 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-13T23:48:48.927-03:00  INFO 21684 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T23:48:49.466-03:00  INFO 21684 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-13T23:48:49.497-03:00  INFO 21684 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9080 (http) with context path ''
+2023-09-13T23:48:49.505-03:00  INFO 21684 --- [  restartedMain] com.Avanade.desafio.DesafioApplication   : Started DesafioApplication in 3.602 seconds (process running for 4.335)
+2023-09-13T23:48:55.475-03:00  INFO 21684 --- [nio-9080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-13T23:48:55.475-03:00  INFO 21684 --- [nio-9080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-13T23:48:55.476-03:00  INFO 21684 --- [nio-9080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-13T23:48:59.324-03:00  WARN 21684 --- [nio-9080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public void com.Avanade.desafio.controllers.GameController.play(com.Avanade.desafio.payloads.GameRequest)]
+Hibernate: select c1_0.id,c1_0.agility,c1_0.attack,c1_0.character_type,c1_0.defense,c1_0.dice_faces,c1_0.dice_nr,c1_0.life,c1_0.name,c1_0.remaining_life from character c1_0 where c1_0.name=?
+2023-09-13T23:49:40.096-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : Character: Character(id=e583f2f3-6fcc-4aa9-95d4-98981eadb49c, name=Knight, life=26, attack=6, defense=8, agility=3, characterType=HERO, diceNr=2, diceFaces=6, remainingLife=26)
+Hibernate: select c1_0.id,c1_0.agility,c1_0.attack,c1_0.character_type,c1_0.defense,c1_0.dice_faces,c1_0.dice_nr,c1_0.life,c1_0.name,c1_0.remaining_life from character c1_0 where c1_0.name=?
+2023-09-13T23:49:40.106-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : Character: Character(id=17ba64e8-0f4e-4176-ba7e-5b8279c361ea, name=Giant, life=34, attack=10, defense=4, agility=4, characterType=MONSTER, diceNr=2, diceFaces=6, remainingLife=34)
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : 
+ 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : ------------------- GAME STARTS --------------------
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : Knight rolled 12, Giant rolled 7, Knight starts!
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : 
+ 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : --- ROUND 1: 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : ATTACK: Knight rolls 1, total attack is 10
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : DEFENSE: Giant rolls 6, total defense is 14
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : Giant received no damage!
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : 
+ 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : --- ROUND 2: 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : ATTACK: Giant rolls 3, total attack is 17
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : DEFENSE: Knight rolls 1, total defense is 12
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.entities.Character   : Knight received 14 damage! Remaining life is: 12 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : 
+ 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : --- ROUND 3: 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : ATTACK: Knight rolls 7, total attack is 16
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : DEFENSE: Giant rolls 6, total defense is 14
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.entities.Character   : Giant received 11 damage! Remaining life is: 23 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : 
+ 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : --- ROUND 4: 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : ATTACK: Giant rolls 9, total attack is 23
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : DEFENSE: Knight rolls 11, total defense is 22
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.entities.Character   : Knight received 16 damage! Remaining life is: 0 
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : ------------------- GAME ENDS --------------------
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : winner: Giant
+2023-09-13T23:49:40.107-03:00  INFO 21684 --- [nio-9080-exec-6] com.Avanade.desafio.Usecases.Game        : 
+ 
+2023-09-13T23:57:09.018-03:00  INFO 21684 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T23:57:09.021-03:00  INFO 21684 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-13T23:57:09.030-03:00  INFO 21684 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

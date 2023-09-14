@@ -1,0 +1,64 @@
+{
+  "characters": [
+    {
+      "name": "Warrior",
+      "life": 20,
+      "attack": 7,
+      "defense": 5,
+      "agility": 6,
+      "characterType": "HERO",
+      "diceNr": 1,
+      "diceFaces": 12
+    },
+    {
+      "name": "Barbarian",
+      "life": 21,
+      "attack": 7,
+      "defense": 2,
+      "agility": 5,
+      "characterType": "HERO",
+      "diceNr": 2,
+      "diceFaces": 8
+    },
+    {
+      "name": "Knight",
+      "life": 26,
+      "attack": 6,
+      "defense": 8,
+      "agility": 3,
+      "characterType": "HERO",
+      "diceNr": 2,
+      "diceFaces": 6
+    },
+    {
+      "name": "Orc",
+      "life": 42,
+      "attack": 7,
+      "defense": 1,
+      "agility": 2,
+      "characterType": "MONSTER",
+      "diceNr": 3,
+      "diceFaces": 4
+    },
+    {
+      "name": "Giant",
+      "life": 34,
+      "attack": 10,
+      "defense": 4,
+      "agility": 4,
+      "characterType": "MONSTER",
+      "diceNr": 2,
+      "diceFaces": 6
+    },
+    {
+      "name": "Werewolf",
+      "life": 34,
+      "attack": 7,
+      "defense": 4,
+      "agility": 7,
+      "characterType": "MONSTER",
+      "diceNr": 2,
+      "diceFaces": 4
+    }
+  ]
+}
