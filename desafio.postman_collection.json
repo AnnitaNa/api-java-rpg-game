@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "de1d761e-3ee6-423a-9ad4-0eb2a8412650",
+		"name": "Projeto final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21024684"
+	},
+	"item": [
+		{
+			"name": "character",
+			"item": [
+				{
+					"name": "character create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Werewolf\",\r\n    \"life\": 34,\r\n    \"attack\": 7,\r\n    \"defense\": 4,\r\n    \"agility\": 7,\r\n    \"characterType\": \"MONSTER\",\r\n    \"diceNr\": 2,\r\n    \"diceFaces\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/character",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"character"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "character get all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"teste2\",\r\n    \"life\": 1,\r\n    \"attack\": 2,\r\n    \"defense\": 3,\r\n    \"agility\": 4,\r\n    \"characterType\": \"HERO\",\r\n    \"diceNr\": 2,\r\n    \"diceFaces\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/character",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"character"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "character update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"teste3\",\r\n    \"life\": 9,\r\n    \"attack\": 2,\r\n    \"defense\": 9,\r\n    \"agility\": 4,\r\n    \"characterType\": \"HERO\",\r\n    \"diceNr\": 2,\r\n    \"diceFaces\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/character/eb7b28a2-d18a-416a-a28e-397c181da8a5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"character",
+								"eb7b28a2-d18a-416a-a28e-397c181da8a5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "character get by id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/character/eb7b28a2-d18a-416a-a28e-397c181da8a5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"character",
+								"eb7b28a2-d18a-416a-a28e-397c181da8a5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "character get by name",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/character/name/Werewolf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"character",
+								"name",
+								"Werewolf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "character delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/character/b03f8e25-2431-4479-a522-3fcf27eee28f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"character",
+								"b03f8e25-2431-4479-a522-3fcf27eee28f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "game",
+			"item": [
+				{
+					"name": "dice",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"teste2\",\r\n    \"life\": 1,\r\n    \"attack\": 2,\r\n    \"defense\": 3,\r\n    \"agility\": 4,\r\n    \"characterType\": \"HERO\",\r\n    \"diceNr\": 2,\r\n    \"diceFaces\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9080/game/dice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9080",
+							"path": [
+								"game",
+								"dice"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "1. Crie seus personagens",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"characters\": [\r\n        {\r\n            \"name\": \"Warrior\",\r\n            \"life\": 20,\r\n            \"attack\": 7,\r\n            \"defense\": 5,\r\n            \"agility\": 6,\r\n            \"characterType\": \"HERO\",\r\n            \"diceNr\": 1,\r\n            \"diceFaces\": 12\r\n        },\r\n        {\r\n            \"name\": \"Barbarian\",\r\n            \"life\": 21,\r\n            \"attack\": 7,\r\n            \"defense\": 2,\r\n            \"agility\": 5,\r\n            \"characterType\": \"HERO\",\r\n            \"diceNr\": 2,\r\n            \"diceFaces\": 8\r\n        },\r\n        {\r\n            \"name\": \"Knight\",\r\n            \"life\": 26,\r\n            \"attack\": 6,\r\n            \"defense\": 8,\r\n            \"agility\": 3,\r\n            \"characterType\": \"HERO\",\r\n            \"diceNr\": 2,\r\n            \"diceFaces\": 6\r\n        },\r\n        {\r\n            \"name\": \"Orc\",\r\n            \"life\": 42,\r\n            \"attack\": 7,\r\n            \"defense\": 1,\r\n            \"agility\": 2,\r\n            \"characterType\": \"MONSTER\",\r\n            \"diceNr\": 3,\r\n            \"diceFaces\": 4\r\n        },\r\n        {\r\n            \"name\": \"Giant\",\r\n            \"life\": 34,\r\n            \"attack\": 10,\r\n            \"defense\": 4,\r\n            \"agility\": 4,\r\n            \"characterType\": \"MONSTER\",\r\n            \"diceNr\": 2,\r\n            \"diceFaces\": 6\r\n        },\r\n        {\r\n            \"name\": \"Werewolf\",\r\n            \"life\": 34,\r\n            \"attack\": 7,\r\n            \"defense\": 4,\r\n            \"agility\": 7,\r\n            \"characterType\": \"MONSTER\",\r\n            \"diceNr\": 2,\r\n            \"diceFaces\": 4\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/character/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"character",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Jogar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name1\": \"Knight\",\r\n    \"name2\": \"Giant\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9080/game/play",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"game",
+						"play"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
